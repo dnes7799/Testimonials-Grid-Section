@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@200;600&display=swap');
+
+*{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 170px;
+    background-color: hsl(210, 46%, 95%);
+}
+
+@media only screen and (min-width: 1440px) {
+  .grid-container{
+      position: relative;
+      display: flex;
+      height: 32em;
+  }
+  .title{
+    font-weight: 600;
+    font-size: 18px;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 1em;
+    color: white;
+  
+  }
+.sub-title{
+    font-weight: 500;
+    font-size: 13px;
+    padding-left: 1em;
+    padding-right: 1em;
+    color: rgba(255, 255, 255, 0.788);
+    opacity: 70%;
+  }
+  .name-text p{
+      margin: 0;
+      margin-left: 10px;
+      color: white;
+      font-size: 0.9em;
+      padding-left: 0.8em;
+
+  }
+  .name-text p:nth-child(2){
+    opacity: 50%;
+    font-size: 0.8em;
+  }
+  .testimony-1{
+    flex: 50%;
+    padding: 1em;
+    position: relative;
+    background-color: hsl(263, 55%, 52%);
+    border-radius: 10px;
+    margin-right: 1.5em;
+    margin-left: 0.5em;
+    max-height: 16em;
+    max-width: 520px;
+  }
+  
+  .testimony-1 .background-image{
+      position: absolute;
+      top: 0;
+      right: 60px;
+  }
+
+   .image-daniel{
+      display: flex;
+      margin-left: 0.5em;
+      padding: 0.7em;
+      padding-bottom: 1em;
+  }
+  
+  .image-daniel img{
+      border-radius: 50%;
+      border: 1px solid hsl(264, 75%, 81%);
+      width: 7%;
+  }
+  .testimony-1 .title{
+    position: relative;
+    z-index: 1;
+  }
+  
+  
+ 
+  .testimony-2{
+      flex: 25%;
+      padding: 1em;
+      background-color: hsl(217, 19%, 35%);
+      border-radius: 10px;
+      margin-right: 1.5em;
+      max-height: 16em;
+      max-width: 240px;
+
+
+  }
+
+  .image-jonathan{
+    display: flex;
+    margin-left: 0.5em;
+    padding: 0.7em;
+    padding-bottom: 1em;
+
+  }
+  
+  .image-jonathan img{
+    border-radius: 50%;
+    width: 14%;
+    height: 18%;
+    margin-top: 5px;
+
+  }
+  .testimony-2 .sub-title{
+    padding-right: 20px;
+  }
+ 
+
+  .testimony-3{
+      flex: 25%;
+      padding: 1em;
+      background-color: hsl(0, 0%, 100%);
+      border-radius: 10px;
+      margin-right: 0.5em;
+      max-width: 245px;
+  }
+
+  .image-kira{
+    display: flex;
+    padding: 0.7em;
+    padding-bottom: 1em;
+    margin-left: 0.5em;
+
+  }
+  
+  .image-kira img{
+    border-radius: 50%;
+    border: 3px solid white;
+    width: 16%;
+  }
+ 
+  .image-kira .name-text p{
+    color: rgb(0, 0, 0);
+    
+  }
+
+  .text-container-3 .title{
+    color: black;
+  }
+  .text-container-3 .sub-title{
+    color: black;
+  }
+
+  .grid-container-2{
+    display: flex;
+    background-color: rgb(228, 96, 96);
+    margin-right: 263px;
+    position: relative;
+  
+
+  }
+  .testimony-4{
+    background-color: hsl(0, 0%, 100%);
+    padding: 1em;
+    flex: 1;
+    margin-left: 0.5em;
+    margin-right: 1.5em;
+    border-radius: 10px;
+    max-height: 16em;
+    position: absolute;
+    top: -237px;
+    
+    max-width: 240px;
+
+  }
+  .image-jeanette .name-text p{
+    color: black;
+  }
+
+  .image-jeanette{
+    display: flex;
+    margin-left: 0.5em;
+    padding: 0.7em;
+    padding-bottom: 1em;
+  }
+
+  .image-jeanette img{
+    border-radius: 50%;
+    width: 16%;
+  }
+
+  .testimony-5{
+    padding: 1em;
+    background-color: hsl(219, 29%, 14%);
+    flex: 2;
+    border-radius: 10px;
+    margin-right: 1.5em;
+    max-height: 16em;
+    position: absolute;
+    top: -237px;
+    max-width: 520px;
+    left: 279px;
+  }
+
+  .image-patrick{
+    display: flex;
+    margin-left: 0.5em;
+    padding: 0.7em;
+    padding-bottom: 1em;
+  }
+
+  .image-patrick img{
+    border-radius: 50%;
+    width: 7%;
+    border: 1px solid; 
+    border-color: hsl(263, 55%, 52%);
+  }
+
+
+
+
+
+
+
+
+}
+
